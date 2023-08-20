@@ -12,28 +12,28 @@
   <body>
     <header>
       <div class="container">
-        <h2>VITO</h2>
-        <img src="../assets/images/vito.png" alt="Vito 個人照">
-        <h2 class="text-end">RESUME</h2>
+        <h2 data-aos="fade-up">VITO</h2>
+        <img data-aos="fade-up" src="../assets/images/vito.png" alt="Vito 個人照">
+        <h2 data-aos="fade-up" class="text-end">RESUME</h2>
       </div>
     </header>
     <div class="bg-gray-200">
       <div class="container">
-        <div class="content">
+        <div class="content" data-aos="fade-up">
           <p>I'm Vito, a UI Designer with 5+ years of experience. I create visually appealing interfaces for web and mobile apps. Proficient in Sketch, Adobe XD, Figma, HTML, CSS, and JavaScript. I enjoy collaborating with others to create high-quality products.</p>
         </div>
       </div>
     </div>
     <div class="main">
       <div class="container">
-        <ul class="width-50 mb-8">
+        <ul class="width-50 mb-8" data-aos="fade-up">
           <li class="mb-4">Vito Evans</li>
           <li class="fz-6 mb-2">456 Walnut Avenue, Someville, USA</li>
           <li class="fz-6 mb-2">+1 123 456 7890</li>
           <li class="fz-6 mb-2">info@hexschool.com</li>
           <li class="fz-6 mb-2">www.infohexschool.com</li>
         </ul>
-        <ul class="width-50 mb-8">
+        <ul class="width-50 mb-8" data-aos="fade-up">
           <li class="mb-4">Education</li>
           <li class="text-gray-800 text-italic fz-5">2014-2018</li>
           <li class="mb-4 fz-6">Bachelor of Science in Business Administration, University of California, Los Angeles</li>
@@ -42,7 +42,7 @@
           <li class="text-gray-800 text-italic fz-5">2008-2012</li>
           <li class="mb-2 fz-6">High School Diploma, Lincoln High School</li>
         </ul>
-        <ul class="width-50 mb-8">
+        <ul class="width-50 mb-8" data-aos="fade-up">
           <li class="mb-4">Work</li>
           <li class="text-gray-800 text-italic fz-5">2018-2021</li>
           <li class="mb-4 fz-6">Marketing Manager, ABC Company</li>
@@ -51,7 +51,7 @@
           <li class="text-gray-800 text-italic fz-5">2014-2016</li>
           <li class="mb-2 fz-6">Customer Service Representative, QRS Inc.</li>
         </ul>
-        <ul class="width-50">
+        <ul class="width-50" data-aos="fade-up">
           <li>Awards</li>
           <li class="fz-6 mb-3">Best in Show Award, National Advertising Awards, 2020</li>
           <li class="fz-6 mb-3">Honorable Mention, International Design Competition, <br> 2019</li>
@@ -59,7 +59,7 @@
         </ul>
       </div>
     </div>
-    <footer class="bg-black ">
+    <footer class="bg-black">
       <div class="contianer">
         <ul class="d-flex justify-content-center">
           <li><a href="#"><img src="../assets/images/fb.png" alt="fb-icon"></a></li>
@@ -68,6 +68,13 @@
         </ul>
       </div>
     </footer>
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
     <script type="module" src="../main.js"></script>
   </body>
 </html>
