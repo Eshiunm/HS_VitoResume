@@ -1,0 +1,61 @@
+.text-end{
+    text-align: end;
+}
+
+.text-italic{
+    font-style: italic;
+}
+
+
+.text-gray-800{
+    color: #949494;
+}
+
+
+.bg-gray-200{
+    background-color: #EFEFEF;
+}
+
+.bg-black{
+    background-color: #000000;
+}
+
+.width-50{
+    width: 50%;
+}
+
+.fz-5{
+    font-size: $fz-base*1.25;
+}
+
+.fz-6{
+    font-size: $fz-base*1.5;
+}
+
+.mb-2{
+    margin-bottom: $space-base*2;   
+}
+
+.mb-3{
+    margin-bottom: $space-base*3;   
+}
+
+.mb-4{
+    margin-bottom: $space-base*4;
+}
+
+.mb-8{
+    margin-bottom: $space-base*8;
+}
+
+.d-flex{
+    display: flex;
+    
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+
+
